@@ -1,0 +1,30 @@
+{
+    "RNAseq.inputBam": "/home/gwo/devel/rnaseq-variants-pipeline/data/A200070-ctnnb1.bam",
+    "RNAseq.inputBamIndex": "/home/gwo/devel/rnaseq-variants-pipeline/data/A200070-ctnnb1.bam.bai",
+    "RNAseq.annotationsGTF": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/gencode.v38.annotation.ctnnb1.gtf",
+    "RNAseq.refFasta": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/chr3.fasta",
+    "RNAseq.refFastaIndex": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/chr3.fasta.fai",
+    "RNAseq.refDict": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/chr3.dict",
+    "RNAseq.dbSnpVcf": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/dbsnp_138.hg38.ctnnb1.vcf.gz",
+    "RNAseq.dbSnpVcfIndex": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/dbsnp_138.hg38.ctnnb1.vcf.gz.tbi",
+
+    "RNAseq.knownVcfs": [
+	"/home/gwo/devel/rnaseq-variants-pipeline/data/reference/Mills_and_1000G_gold_standard.indels.hg38.ctnnb1.vcf.gz",
+	"/home/gwo/devel/rnaseq-variants-pipeline/data/reference/Homo_sapiens_assembly38.known_indels.ctnnb1.vcf.gz"
+    ],
+
+    "RNAseq.knownVcfsIndices": [
+	"/home/gwo/devel/rnaseq-variants-pipeline/data/reference/Mills_and_1000G_gold_standard.indels.hg38.ctnnb1.vcf.gz.tbi",
+	"/home/gwo/devel/rnaseq-variants-pipeline/data/reference/Homo_sapiens_assembly38.known_indels.ctnnb1.vcf.gz.tbi"
+    ],
+
+    "RNAseq.java_opt": "String",
+    "RNAseq.gatk_path": "/home/gwo/apps/gatk-4.2.0.0/gatk",
+
+    "##RNAseq.interval_list": "/home/gwo/devel/rnaseq-variants-pipeline/data/reference/gencode.v38.exon.ctnnb1.interval_list",
+
+    "##RNAseq.minConfidenceForVariantCalling": "(optional) Int?",
+    "##RNAseq.haplotypeScatterCount": "(optional) Int?",
+    "##RNAseq.preemptible_tries": "(optional) Int?"
+}
+

@@ -1,0 +1,25 @@
+
+  
+* scatter
+
+#+begin_src bash
+
+  ## validate wdl code
+  java -jar womtool-53-1.jar validate scatter-haplotypecaller.wdl
+
+
+  java -jar womtool-53-1.jar \
+       inputs scatter-haplotypecaller.wdl \
+       > scatter-haplotypecaller.inputs.json
+
+
+  java -jar cromwell-59.jar \
+       run scatter-haplotypecaller.wdl \
+       -i scatter-haplotypecaller.inputs.json
+
+  ## graph of workflow
+  java -jar womtool-53-1.jar \
+       graph scatter-haplotypecaller.wdl \
+       > scatter-haplotypecaller.dot
+
+    #+end_src
